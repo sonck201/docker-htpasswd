@@ -5,7 +5,7 @@
 To generate a password file:
 
 ```zsh
-docker run --rm -ti xmartlabs/htpasswd <username> <password>
+docker run --rm -ti sonck201/docker-htpasswd-arm <username> <password>
 ```
 
 This will use bcrypt encryption.
